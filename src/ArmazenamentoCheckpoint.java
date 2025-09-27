@@ -3,8 +3,6 @@ import java.nio.file.*;
 import java.util.*;
 
 
-// Classe que salva e carrega o estado das tarefas em arquivo.
-// Usado para manter checkpoint do sistema em caso de falhas.
 public class ArmazenamentoCheckpoint {
 private final Path arquivo;
 
@@ -14,7 +12,7 @@ this.arquivo = Paths.get(caminho);
 }
 
 
-// Salva todas as tarefas em um arquivo texto.
+
 public synchronized void salvar(Map<String, Tarefa> tarefas) throws IOException {
 try (BufferedWriter w = Files.newBufferedWriter(arquivo)) {
 for (Tarefa t : tarefas.values()) {
@@ -25,7 +23,6 @@ w.newLine();
 }
 
 
-// Carrega o estado das tarefas de um arquivo texto.
 public synchronized Map<String, Tarefa> carregar() throws IOException {
 Map<String, Tarefa> mapa = new HashMap<>();
 if (!Files.exists(arquivo)) return mapa;
