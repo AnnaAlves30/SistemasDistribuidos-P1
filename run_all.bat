@@ -1,24 +1,51 @@
-\
 @echo off
-rem Compila e inicia orquestrador primary, backup, 3 workers e 2 clients em janelas separadas.
+setlocal enabledelayedexpansion
+
 set SRC=src
-set OUT=out
-if not exist %OUT% mkdir %OUT%
-javac -d %OUT% %SRC%\distributed\*.java
-if errorlevel 1 (
-  echo Erro na compilacao
-  pause
-  exit /b 1
+set OUT=bin
+
+if not exist "%OUT%" mkdir "%OUT%"
+
+echo ===============================
+echo Compilando todos os arquivos Java...
+echo ===============================
+
+rem Criar lista de arquivos Java
+set FILES=
+for /R "%SRC%" %%f in (*.java) do (
+    set FILES=!FILES! "%%f"
 )
-rem Start primary orchestrator
-start "Orchestrador-Primary" cmd /k "java -cp %OUT% distributed.Orchestrator primary 5000 7000"
-rem Start backup orchestrator
-start "Orchestrador-Backup" cmd /k "java -cp %OUT% distributed.Orchestrator backup 5001 7000"
-rem Start workers (3)
-start "Worker-1" cmd /k "java -cp %OUT% distributed.Worker 6001 7000"
-start "Worker-2" cmd /k "java -cp %OUT% distributed.Worker 6002 7000"
-start "Worker-3" cmd /k "java -cp %OUT% distributed.Worker 6003 7000"
-rem Start clients (2) that submit tasks
-start "Client-1" cmd /k "java -cp %OUT% distributed.Client client1 secret 5000 submit taskA;sleep:5;submit taskB"
-start "Client-2" cmd /k "java -cp %OUT% distributed.Client client2 secret 5000 submit taskC;sleep:2;status all"
-echo All processes started.
+
+rem Compilar todos os arquivos de uma só vez
+javac -d "%OUT%" -cp "%OUT%" %FILES%
+if errorlevel 1 (
+    echo Erro na compilacao
+    pause
+    exit /b 1
+)
+
+echo ===============================
+echo Compilacao concluida com sucesso!
+echo ===============================
+
+rem ==== INICIAR PROCESSOS ====
+echo Iniciando processos...
+
+start "Orq-Principal" cmd /k "java -cp %OUT% orquestrador.OrquestradorPrincipal 5000"
+timeout /t 1 >nul
+
+start "Orq-Backup" cmd /k "java -cp %OUT% orquestrador.OrquestradorBackup 5001"
+timeout /t 1 >nul
+
+start "Worker-1" cmd /k "java -cp %OUT% worker.Worker 6001"
+start "Worker-2" cmd /k "java -cp %OUT% worker.Worker 6002"
+start "Worker-3" cmd /k "java -cp %OUT% worker.Worker 6003"
+timeout /t 1 >nul
+
+start "Client-1" cmd /k "java -cp %OUT% cliente.Cliente client1 secret 5000 submit:taskA sleep:5 submit:taskB"
+start "Client-2" cmd /k "java -cp %OUT% cliente.Cliente client2 secret 5000 submit:taskC"
+
+echo ===============================
+echo Todos os processos iniciados!
+echo ===============================
+pause

@@ -1,3 +1,57 @@
-Sat Sep 27 14:00:16 BRT 2025 [WORKER] Worker listening on 6001
-Sat Sep 27 14:00:17 BRT 2025 [WORKER] Worker listening on 6002
-Sat Sep 27 14:00:17 BRT 2025 [WORKER] Worker listening on 6003
+Sat Sep 27 15:57:56 BRT 2025 [WORKER] Worker ouvindo em 6001
+Sat Sep 27 15:57:57 BRT 2025 [WORKER] Worker ouvindo em 6002
+Sat Sep 27 15:57:57 BRT 2025 [WORKER] Worker ouvindo em 6003
+Sat Sep 27 15:57:57 BRT 2025 [WORKER] Recebeu tarefa 1: taskA
+Sat Sep 27 15:57:57 BRT 2025 [WORKER] Recebeu tarefa 2: taskC
+Sat Sep 27 15:58:02 BRT 2025 [WORKER] Falha ao registrar no Orquestrador, tentando novamente em 2s
+Sat Sep 27 15:58:03 BRT 2025 [WORKER] Falha ao registrar no Orquestrador, tentando novamente em 2s
+Sat Sep 27 15:58:03 BRT 2025 [WORKER] Falha ao registrar no Orquestrador, tentando novamente em 2s
+Sat Sep 27 15:58:03 BRT 2025 [WORKER] Recebeu tarefa 3: taskB
+Sat Sep 27 15:58:05 BRT 2025 [WORKER] Recebeu tarefa 1: taskA
+Sat Sep 27 15:58:05 BRT 2025 [WORKER] Recebeu tarefa 2: taskC
+Sat Sep 27 15:58:05 BRT 2025 [WORKER] Recebeu tarefa 3: taskB
+Sat Sep 27 15:58:10 BRT 2025 [WORKER] Falha ao registrar no Orquestrador, tentando novamente em 2s
+Sat Sep 27 15:58:11 BRT 2025 [WORKER] Falha ao registrar no Orquestrador, tentando novamente em 2s
+Sat Sep 27 15:58:11 BRT 2025 [WORKER] Falha ao registrar no Orquestrador, tentando novamente em 2s
+Sat Sep 27 15:58:14 BRT 2025 [WORKER] Recebeu tarefa 1: taskA
+Sat Sep 27 15:58:14 BRT 2025 [WORKER] Recebeu tarefa 2: taskC
+Sat Sep 27 15:58:18 BRT 2025 [WORKER] Falha ao registrar no Orquestrador, tentando novamente em 2s
+Sat Sep 27 15:58:23 BRT 2025 [WORKER] Recebeu tarefa 1: taskA
+Sat Sep 27 15:58:23 BRT 2025 [WORKER] Recebeu tarefa 2: taskC
+Sat Sep 27 15:59:55 BRT 2025 [WORKER] Worker ouvindo em 6001
+Sat Sep 27 15:59:56 BRT 2025 [WORKER] Worker ouvindo em 6002
+Sat Sep 27 15:59:56 BRT 2025 [WORKER] Worker ouvindo em 6003
+Sat Sep 27 15:59:56 BRT 2025 [WORKER] Recebeu tarefa 1: taskA
+Sat Sep 27 15:59:57 BRT 2025 [WORKER] Recebeu tarefa 2: taskC
+Sat Sep 27 16:00:01 BRT 2025 [WORKER] Falha ao registrar no Orquestrador, tentando novamente em 2s
+Sat Sep 27 16:00:02 BRT 2025 [WORKER] Falha ao registrar no Orquestrador, tentando novamente em 2s
+Sat Sep 27 16:00:02 BRT 2025 [WORKER] Falha ao registrar no Orquestrador, tentando novamente em 2s
+Sat Sep 27 16:00:02 BRT 2025 [WORKER] Recebeu tarefa 3: taskB
+Sat Sep 27 16:00:04 BRT 2025 [WORKER] Recebeu tarefa 1: taskA
+Sat Sep 27 16:00:04 BRT 2025 [WORKER] Recebeu tarefa 2: taskC
+Sat Sep 27 16:00:07 BRT 2025 [WORKER] Recebeu tarefa 3: taskB
+Sat Sep 27 16:00:09 BRT 2025 [WORKER] Falha ao registrar no Orquestrador, tentando novamente em 2s
+Sat Sep 27 16:00:10 BRT 2025 [WORKER] Falha ao registrar no Orquestrador, tentando novamente em 2s
+Sat Sep 27 16:00:10 BRT 2025 [WORKER] Falha ao registrar no Orquestrador, tentando novamente em 2s
+Sat Sep 27 16:00:13 BRT 2025 [WORKER] Recebeu tarefa 1: taskA
+Sat Sep 27 16:00:13 BRT 2025 [WORKER] Recebeu tarefa 2: taskC
+Sat Sep 27 16:00:13 BRT 2025 [WORKER] Recebeu tarefa 3: taskB
+Sat Sep 27 16:00:17 BRT 2025 [WORKER] Falha ao registrar no Orquestrador, tentando novamente em 2s
+Sat Sep 27 16:00:18 BRT 2025 [WORKER] Falha ao registrar no Orquestrador, tentando novamente em 2s
+Sat Sep 27 16:00:18 BRT 2025 [WORKER] Falha ao registrar no Orquestrador, tentando novamente em 2s
+Sat Sep 27 16:00:22 BRT 2025 [WORKER] Recebeu tarefa 1: taskA
+Sat Sep 27 16:00:22 BRT 2025 [WORKER] Recebeu tarefa 2: taskC
+Sat Sep 27 16:00:22 BRT 2025 [WORKER] Recebeu tarefa 3: taskB
+Sat Sep 27 16:00:25 BRT 2025 [WORKER] Falha ao registrar no Orquestrador, tentando novamente em 2s
+Sat Sep 27 16:00:26 BRT 2025 [WORKER] Falha ao registrar no Orquestrador, tentando novamente em 2s
+Sat Sep 27 16:00:26 BRT 2025 [WORKER] Falha ao registrar no Orquestrador, tentando novamente em 2s
+Sat Sep 27 16:00:28 BRT 2025 [WORKER] Recebeu tarefa 1: taskA
+Sat Sep 27 16:00:28 BRT 2025 [WORKER] Recebeu tarefa 2: taskC
+Sat Sep 27 16:00:31 BRT 2025 [WORKER] Recebeu tarefa 3: taskB
+Sat Sep 27 16:00:33 BRT 2025 [WORKER] Falha ao registrar no Orquestrador, tentando novamente em 2s
+Sat Sep 27 16:00:34 BRT 2025 [WORKER] Falha ao registrar no Orquestrador, tentando novamente em 2s
+Sat Sep 27 16:00:34 BRT 2025 [WORKER] Falha ao registrar no Orquestrador, tentando novamente em 2s
+Sat Sep 27 16:00:37 BRT 2025 [WORKER] Recebeu tarefa 1: taskA
+Sat Sep 27 16:00:37 BRT 2025 [WORKER] Recebeu tarefa 2: taskC
+Sat Sep 27 16:00:37 BRT 2025 [WORKER] Recebeu tarefa 3: taskB
+Sat Sep 27 16:00:41 BRT 2025 [WORKER] Falha ao registrar no Orquestrador, tentando novamente em 2s

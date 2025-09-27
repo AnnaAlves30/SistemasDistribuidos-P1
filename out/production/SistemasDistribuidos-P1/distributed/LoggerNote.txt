@@ -1,1 +1,0 @@
-Logs are written to logs/ directory. Each component appends to its own log file.
