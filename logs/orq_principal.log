@@ -187,3 +187,37 @@ Sat Sep 27 16:17:21 BRT 2025 [ORQ-PRIM] Reatribuida tarefa 3
 Sat Sep 27 16:17:27 BRT 2025 [ORQ-PRIM] Worker registrado: 127.0.0.1:6001
 Sat Sep 27 16:17:27 BRT 2025 [ORQ-PRIM] Worker registrado: 127.0.0.1:6002
 Sat Sep 27 16:17:28 BRT 2025 [ORQ-PRIM] Worker registrado: 127.0.0.1:6003
+Sat Sep 27 18:38:47 BRT 2025 [ORQ-PRIM] OrquestradorPrincipal iniciado na porta 5000
+Sat Sep 27 18:38:48 BRT 2025 [ORQ-PRIM] Worker registrado: 127.0.0.1:6001
+Sat Sep 27 18:38:48 BRT 2025 [ORQ-PRIM] Worker registrado: 127.0.0.1:6002
+Sat Sep 27 18:38:48 BRT 2025 [ORQ-PRIM] Worker registrado: 127.0.0.1:6003
+Sat Sep 27 18:38:49 BRT 2025 [ORQ-PRIM] Tarefa submetida id=1 desc=taskA
+Sat Sep 27 18:38:49 BRT 2025 [ORQ-PRIM] Tarefa 1 atribuida ao worker 127.0.0.1:6001
+Sat Sep 27 18:38:49 BRT 2025 [ORQ-PRIM] Tarefa submetida id=2 desc=taskC
+Sat Sep 27 18:38:49 BRT 2025 [ORQ-PRIM] Tarefa 2 atribuida ao worker 127.0.0.1:6002
+Sat Sep 27 18:38:55 BRT 2025 [ORQ-PRIM] Tarefa submetida id=3 desc=taskB
+Sat Sep 27 18:38:55 BRT 2025 [ORQ-PRIM] Tarefa 3 atribuida ao worker 127.0.0.1:6003
+Sat Sep 27 18:38:56 BRT 2025 [ORQ-PRIM] Worker registrado: 127.0.0.1:6001
+Sat Sep 27 18:38:56 BRT 2025 [ORQ-PRIM] Worker registrado: 127.0.0.1:6002
+Sat Sep 27 18:38:56 BRT 2025 [ORQ-PRIM] Worker morto: 127.0.0.1:6001
+Sat Sep 27 18:38:56 BRT 2025 [ORQ-PRIM] Tarefa 1 atribuida ao worker 127.0.0.1:6001
+Sat Sep 27 18:38:56 BRT 2025 [ORQ-PRIM] Reatribuida tarefa 1
+Sat Sep 27 18:38:56 BRT 2025 [ORQ-PRIM] Worker morto: 127.0.0.1:6002
+Sat Sep 27 18:38:56 BRT 2025 [ORQ-PRIM] Tarefa 2 atribuida ao worker 127.0.0.1:6002
+Sat Sep 27 18:38:56 BRT 2025 [ORQ-PRIM] Reatribuida tarefa 2
+Sat Sep 27 18:38:56 BRT 2025 [ORQ-PRIM] Worker registrado: 127.0.0.1:6003
+Sat Sep 27 18:38:59 BRT 2025 [ORQ-PRIM] Worker morto: 127.0.0.1:6003
+Sat Sep 27 18:38:59 BRT 2025 [ORQ-PRIM] Tarefa 3 atribuida ao worker 127.0.0.1:6003
+Sat Sep 27 18:38:59 BRT 2025 [ORQ-PRIM] Reatribuida tarefa 3
+Sat Sep 27 18:39:04 BRT 2025 [ORQ-PRIM] Worker registrado: 127.0.0.1:6001
+Sat Sep 27 18:39:04 BRT 2025 [ORQ-PRIM] Worker registrado: 127.0.0.1:6002
+Sat Sep 27 18:39:05 BRT 2025 [ORQ-PRIM] Worker registrado: 127.0.0.1:6003
+Sat Sep 27 18:39:05 BRT 2025 [ORQ-PRIM] Worker morto: 127.0.0.1:6001
+Sat Sep 27 18:39:05 BRT 2025 [ORQ-PRIM] Tarefa 1 atribuida ao worker 127.0.0.1:6001
+Sat Sep 27 18:39:05 BRT 2025 [ORQ-PRIM] Reatribuida tarefa 1
+Sat Sep 27 18:39:05 BRT 2025 [ORQ-PRIM] Worker morto: 127.0.0.1:6002
+Sat Sep 27 18:39:05 BRT 2025 [ORQ-PRIM] Tarefa 2 atribuida ao worker 127.0.0.1:6002
+Sat Sep 27 18:39:05 BRT 2025 [ORQ-PRIM] Reatribuida tarefa 2
+Sat Sep 27 18:39:05 BRT 2025 [ORQ-PRIM] Worker morto: 127.0.0.1:6003
+Sat Sep 27 18:39:05 BRT 2025 [ORQ-PRIM] Tarefa 3 atribuida ao worker 127.0.0.1:6003
+Sat Sep 27 18:39:05 BRT 2025 [ORQ-PRIM] Reatribuida tarefa 3
